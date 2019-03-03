@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+<meta name="language" content="fr" />
+
+<meta name="title" content="Hermine Fight Club" />
+<style>
+body{
+background-color:magenta;
+cursor: url('https://www.transparenttextures.com/patterns/asfalt-light.png'), default;
+cursor: url('https://www.transparenttextures.com/patterns/asfalt-light.png'), auto;	}
+</style>
+</head>
+<body>
+<p>FR:Clique enfoncé pour donner des coups de poing!</p>
+<p>EN:Keep Click to punch!</p>
+
+<script type="text/javascript">
+
+
+
+                document.onmousemove = suitsouris;
+                function suitsouris(evenement)
+                {
+                        if(navigator.appName=="Microsoft Internet Explorer")
+                        {
+                                var x = event.x+document.body.scrollLeft;
+                                var y = event.y+document.body.scrollTop;
+                        }
+                        else
+                        {
+                                var x =  evenement.pageX;
+                                var y =  evenement.pageY;
+                        }
+                        document.getElementById("suitsouris").style.left = (x+0)+'px';
+                        document.getElementById("suitsouris").style.top  = (y+0)+'px';
+                }
+        </script>
+
+<img 
+id="suitsouris" 
+width="25%" 
+height="50%" src="https://orig00.deviantart.net/fea6/f/2018/335/c/0/walkherminefightclub_by_kidpaddleetcie-dctcgpr.gif" 
+alt="" 
+onclick="this.src='https://orig00.deviantart.net/fea6/f/2018/335/c/0/walkherminefightclub_by_kidpaddleetcie-dctcgpr.gif';" 
+onmousedown="this.src='https://orig00.deviantart.net/ba3c/f/2018/335/9/3/attackherminefightclub_by_kidpaddleetcie-dctcgpg.gif';" 
+style="position:absolute;display:block;z-index:5;  -webkit-filter: drop-shadow(0px 2px 0px black); filter: drop-shadow(0px 2px 0px black);cursor: hidden;"/>
+
+<a href="https://www.youtube.com/channel/UC034jlxsjmGqBH6qD1zMXYA" id="sectionàpropos">Hermine is a character created by MisterFlech!</a>
+
+</body>
