@@ -1,0 +1,32 @@
+body {
+	
+}
+
+/* Pour la section "à propos" qui se retrouve toujours en-dessous de la page */
+#sectionàpropos{
+	opacity: 0.33;
+	height: absolute;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	display:block;
+	bottom:0;
+	margin:0;
+	border-radius: 5px;
+    z-index: 10000;
+	position: absolute;
+	 margin-left: auto;
+     margin-right: auto;
+	 position:fixed;
+	
+}
+	
+#sectionàpropos:hover{
+	opacity:1;
+	height: 22px;
+	background-color: black;
+	color: yellow;
+	display:block;
+	border-style:outset 0.5;
+}
